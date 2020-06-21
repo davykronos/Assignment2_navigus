@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `bookings`
 --
 
-CREATE TABLE `bookings` (
+CREATE TABLE `booking` (
   `id` int(10) NOT NULL,
   `name` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
@@ -39,9 +39,9 @@ CREATE TABLE `bookings` (
 --
 
 --
--- Indexes for table `bookings`
+-- Indexes for table `booking`
 --
-ALTER TABLE `bookings`
+ALTER TABLE `booking`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -51,7 +51,7 @@ ALTER TABLE `bookings`
 --
 -- AUTO_INCREMENT for table `bookings`
 --
-ALTER TABLE `bookings`
+ALTER TABLE `booking`
   MODIFY `id` int(10) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
